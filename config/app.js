@@ -105,7 +105,7 @@ module.exports = {
     | Enable or disable etag generation
     |
     */
-    etag: true,
+    etag: false,
 
     /*
     |--------------------------------------------------------------------------

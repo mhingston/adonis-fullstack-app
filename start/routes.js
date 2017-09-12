@@ -16,3 +16,8 @@
 const Route = use('Route')
 
 Route.on('/').render('welcome')
+
+Route.get('/test', async ({request, response}) =>
+{
+  response.json({'hey': 'there'});
+})
